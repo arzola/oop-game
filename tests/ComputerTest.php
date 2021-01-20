@@ -13,4 +13,11 @@ class ComputerTest extends TestCase
         $name = Mac::getBrand();
         self::assertEquals('Mac', $name);
     }
+
+	public function test_if_computer_integrity(): void
+	{
+		$reflection = new ReflectionClass(Computer::class);
+		$getBrandIsFinal = $reflection->getMethod('getBrand')->isFinal();
+		self::assertTrue($getBrandIsFinal);
+	}
 }
