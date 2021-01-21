@@ -21,7 +21,6 @@ class User implements BaseObject
 
     public function update()
     {
-
     }
 
     public function getInfo()

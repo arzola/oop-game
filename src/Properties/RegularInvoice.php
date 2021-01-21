@@ -7,10 +7,10 @@ class RegularInvoice
 {
     private $price;
 
-	/**
-	 * RegularInvoice constructor.
-	 * @param $price
-	 */
+    /**
+     * RegularInvoice constructor.
+     * @param $price
+     */
     public function __construct($price)
     {
         $this->price = $price;

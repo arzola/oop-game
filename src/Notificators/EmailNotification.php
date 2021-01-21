@@ -7,8 +7,8 @@ use App\BaseObject;
 class EmailNotification
 {
     public function notify(BaseObject $subject): string
-	{
-		return "Email notification sent to";
+    {
+        return "Email notification sent to";
     }
 
 }

@@ -1,6 +1,7 @@
 <?php
 
 namespace Db;
+
 use Db\Drivers\DatabaseDriver;
 
 
@@ -19,7 +20,7 @@ class Connection
     }
 
     public function getDriver(): string
-	{
+    {
         return "Connected to: Db\Drivers\\";
     }
 
