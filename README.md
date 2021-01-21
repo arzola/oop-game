@@ -5,7 +5,7 @@ Please complete the source code to make all the tests pass ✅, you'll need a li
 **TIPS**
 > You can use file_get_contents to fetch internet data if needed, (no http client required)
 
-> If you need to modify the composer.json you can do a `composer dumpautoload` to refresh the autoloader lo load new files or classes, `require` or `include` directives are not allowed
+> If you need to modify the composer.json you can do a `composer dumpautoload` to refresh the autoloader to load new files or classes, `require` or `include` directives are not allowed
 
 Have fun 🤓
 
