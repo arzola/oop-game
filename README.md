@@ -9,14 +9,16 @@ Inside the src folder, you will find some incomplete classes or functions that n
 All the objects inside the src folders are pieces of a custom PHP ecommerce application that uses database access, notifications, product hierarchy, invoicing, external data fetching, users, and some utility helper functions.
 
 ## Getting Started
+`git clone git@github.com:pressbooks/oop-game.git`
 
-`composer install`
+Switch to the repo's directory and run `composer install`
 
-`vendor/bin/phpunit tests --colors=auto`
+Run the test suite: `vendor/bin/phpunit tests --colors=auto`
 
 Remember that you can filter the tests file by file
-
 `vendor/bin/phpunit tests --colors=auto --filter ComputerTest`
+
+Fix the code so that all tests pass. Do not change any of the tests.
 
 ### Objects
 
