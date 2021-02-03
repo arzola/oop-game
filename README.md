@@ -4,7 +4,7 @@ Please complete the source code to make all the tests pass ✅. To succeed in th
 
 ## Test context
 
-Inside the src folder, you will find some incomplete classes or functions that need to be completed before the phpunit test suite will pass. **Important note:** You are not allowed to modify the tests 😔
+Inside the src folder, you will find some incomplete classes or functions that need to be completed before the PHPUnit test suite will pass. **Important note:** You are not allowed to modify the tests 😔
 
 All the objects inside the src folders are pieces of a custom PHP ecommerce application that uses database access, notifications, product hierarchy, invoicing, external data fetching, users, and some utility helper functions. Additional details about the exercise provided below.
 
