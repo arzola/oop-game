@@ -6,6 +6,9 @@ use Db\PersistentConnection;
 use Db\Drivers\MySql;
 use Db\Drivers\Oracle;
 
+/**
+ * @group 1
+ */
 class ConnectionTest extends TestCase
 {
     public function test_if_mysql_connection_is_established(): void

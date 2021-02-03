@@ -3,6 +3,9 @@
 use PHPUnit\Framework\TestCase;
 use App\Ajax;
 
+/**
+ * @group 2
+ */
 class PatternTest extends TestCase
 {
     public function test_if_simulated_api_works(): void

@@ -5,6 +5,9 @@ use App\Notificators\EmailNotification;
 use App\Notificators\WhatsAppNotification;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @group 1
+ */
 class ContractsTest extends TestCase
 {
     public function test_if_notifications_are_triggered(): void

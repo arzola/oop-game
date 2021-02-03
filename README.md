@@ -13,10 +13,15 @@ All the objects inside the src folders are pieces of a custom PHP ecommerce appl
 
 Switch to the repo's directory and run `composer install`
 
-Run the test suite: `vendor/bin/phpunit tests --colors=auto`
+### Run the tests
 
-Remember that you can filter the tests file by file
-`vendor/bin/phpunit tests --colors=auto --filter ComputerTest`
+Remember you should complete the group 1 tests first
+`vendor/bin/phpunit tests --colors=auto --group 1`
+
+If you have some extra time you can try to solve group 2 for extra points
+`vendor/bin/phpunit tests --colors=auto --group 2`
+
+Run the test suite: `vendor/bin/phpunit tests --colors=auto`
 
 Fix the code so that all tests pass. Do not change any of the tests. Additional details about the exercise below.
 

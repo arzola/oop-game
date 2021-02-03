@@ -2,6 +2,9 @@
 
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @group 2
+ */
 class AjaxCallbackTest extends TestCase
 {
     public function test_if_ajax_callback_is_defined(): void

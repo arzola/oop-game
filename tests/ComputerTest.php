@@ -4,6 +4,9 @@ use LateStatic\Computer;
 use LateStatic\Mac;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @group 1
+ */
 class ComputerTest extends TestCase
 {
     public function test_if_late_static_binding_works(): void

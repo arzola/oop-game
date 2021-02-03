@@ -3,6 +3,9 @@
 use PHPUnit\Framework\TestCase;
 use Properties\InvoiceWithCoupon;
 
+/**
+ * @group 1
+ */
 class ProtectedTest extends TestCase
 {
     public function test_the_right_modifier_access_works(): void

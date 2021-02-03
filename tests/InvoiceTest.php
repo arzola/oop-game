@@ -3,6 +3,9 @@
 use PHPUnit\Framework\TestCase;
 use Properties\DiscountedInvoice;
 
+/**
+ * @group 2
+ */
 class InvoiceTest extends TestCase
 {
     public function test_if_factura_return_800(): void
