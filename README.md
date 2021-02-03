@@ -18,7 +18,7 @@ Run the test suite: `vendor/bin/phpunit tests --colors=auto`
 Remember that you can filter the tests file by file
 `vendor/bin/phpunit tests --colors=auto --filter ComputerTest`
 
-Fix the code so that all tests pass. Do not change any of the tests.
+Fix the code so that all tests pass. Do not change any of the tests. Additional details about the exercise below.
 
 ### Objects
 
