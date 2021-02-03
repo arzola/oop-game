@@ -6,7 +6,7 @@ Please complete the source code to make all the tests pass ✅. To succeed in th
 
 Inside the src folder, you will find some incomplete classes or functions that need to be completed before the phpunit test suite will pass. **Important note:** You are not allowed to modify the tests 😔
 
-All the objects inside the src folders are pieces of a custom PHP ecommerce application that uses database access, notifications, product hierarchy, invoicing, external data fetching, users, and some utility helper functions.
+All the objects inside the src folders are pieces of a custom PHP ecommerce application that uses database access, notifications, product hierarchy, invoicing, external data fetching, users, and some utility helper functions. Additional details about the exercise provided below.
 
 ## Getting Started
 `git clone git@github.com:pressbooks/oop-game.git`
@@ -15,17 +15,17 @@ Switch to the repo's directory and run `composer install`
 
 ### Run the tests
 
-Remember you should complete the group 1 tests first
+We've created two suites of tests that need to be fixed. Begin by running the first group of tests:
 
 `vendor/bin/phpunit tests --colors=auto --group 1`
 
-If you have some extra time you can try to solve group 2 for extra points
+Your objective is to fix the code so that all tests pass. Do not change any of the tests. If you complete the first group of tests and have extra time remaining, you can try to fix the second group of tests for extra points:
 
 `vendor/bin/phpunit tests --colors=auto --group 2`
 
-Run the test suite: `vendor/bin/phpunit tests --colors=auto`
+To run the enire test suite: `vendor/bin/phpunit tests --colors=auto`
 
-Fix the code so that all tests pass. Do not change any of the tests. Additional details about the exercise below.
+Have fun 🤓
 
 ### Objects
 
@@ -73,8 +73,6 @@ There are two incomplete files:
 As you can see we are fetching data using only `file_get_contents`. Don't worry about actually fetching data; all that's needed here is to make the code changes needed so that the functions return the values needed to make the tests pass.
 
 **TIPS**
-> file_get_contents is used to fetch internet data if needed, (no http client required)
+> file_get_contents is used to fetch internet data if needed (no http client required)
 
-> If you need to modify the composer.json you can do a `composer dumpautoload` to refresh the autoloader to load new files or classes. `require` or `include` directives are not allowed
-
-Have fun 🤓
+> If you need to modify the composer.json, `composer dumpautoload` will refresh the autoloader to load new files or classes. `require` or `include` directives are not allowed
