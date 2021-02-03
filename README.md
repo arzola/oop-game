@@ -8,6 +8,16 @@ Inside the src folder, you will find some incomplete classes or functions that n
 
 All the objects inside the src folders are pieces of a custom PHP ecommerce application that uses database access, notifications, product hierarchy, invoicing, external data fetching, users, and some utility helper functions.
 
+## Getting Started
+
+`composer install`
+
+`vendor/bin/phpunit tests --colors=auto`
+
+Remember that you can filter the tests file by file
+
+`vendor/bin/phpunit tests --colors=auto --filter ComputerTest`
+
 ### Objects
 
 **For Database access**
@@ -59,13 +69,3 @@ As you can see we are fetching data using only `file_get_contents`. Don't worry 
 > If you need to modify the composer.json you can do a `composer dumpautoload` to refresh the autoloader to load new files or classes. `require` or `include` directives are not allowed
 
 Have fun 🤓
-
-## Getting Started
-
-`composer install`
-
-`vendor/bin/phpunit tests --colors=auto`
-
-Remember that you can filter the tests file by file
-
-`vendor/bin/phpunit tests --colors=auto --filter ComputerTest`
