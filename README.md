@@ -16,9 +16,11 @@ Switch to the repo's directory and run `composer install`
 ### Run the tests
 
 Remember you should complete the group 1 tests first
+
 `vendor/bin/phpunit tests --colors=auto --group 1`
 
 If you have some extra time you can try to solve group 2 for extra points
+
 `vendor/bin/phpunit tests --colors=auto --group 2`
 
 Run the test suite: `vendor/bin/phpunit tests --colors=auto`
