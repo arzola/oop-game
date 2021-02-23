@@ -9,7 +9,7 @@ Inside the src folder, you will find some incomplete classes or functions that n
 All the objects inside the src folders are pieces of a custom PHP ecommerce application that uses database access, notifications, product hierarchy, invoicing, external data fetching, users, and some utility helper functions. Additional details about the exercise provided below.
 
 ## Getting Started
-`git clone git@github.com:pressbooks/oop-game.git`
+`git clone https://github.com/pressbooks/oop-game.git`
 
 Switch to the repo's directory and run `composer install`
 
